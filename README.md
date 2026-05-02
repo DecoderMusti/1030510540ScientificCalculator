@@ -2,8 +2,6 @@
 
 Modern, şık (Apple tarzı) ve Nesne Yönelimli Programlama (OOP) prensiplerine uygun olarak Flutter ile geliştirilmiş tam özellikli bir bilimsel hesap makinesi.
 
-## 📸 Ekran Görüntüsü
-*(Projeni GitHub'a yükledikten sonra buraya bir ekran görüntüsü ekleyebilirsin)*
 
 ## 🚀 Özellikler
 
@@ -14,18 +12,7 @@ Modern, şık (Apple tarzı) ve Nesne Yönelimli Programlama (OOP) prensiplerine
 - **Akıllı Parantez Yönetimi:** Eksik kapatılmış parantezleri otomatik hesaplama sırasında kapatma
 - **Gelişmiş UX:** Dokunmatik geri bildirim (Haptic feedback), Apple iOS tarzı koyu tema (Dark Mode) ve modern UI bileşenleri
 
-## 🏗️ Mimari ve OOP Prensipleri
 
-Bu proje, kodun okunabilirliğini, sürdürülebilirliğini ve bakımını kolaylaştırmak için katı **OOP (Nesne Yönelimli Programlama)** prensipleriyle tasarlanmıştır.
-
-- **Encapsulation (Kapsülleme):** Buton özellikleri `CalculatorButtonModel` içerisinde, tema ayarları ise `AppTheme` içerisinde kapsüllenmiştir.
-- **Separation of Concerns (İlgi Alanlarının Ayrılması):** 
-  - `models/`: Sadece veri modellerini barındırır.
-  - `engine/`: İş mantığı ve matematiksel hesaplamaları yapar. Arayüzden (UI) tamamen bağımsızdır.
-  - `widgets/`: Tekrar kullanılabilir ve parçalanmış UI bileşenlerini (Buton, Ekran, Tuş Takımı) içerir.
-  - `screens/`: Ana uygulama ekranını tutar.
-- **Single Responsibility Principle (Tek Sorumluluk Prensibi):** Her sınıfın sadece tek bir amacı vardır. Örneğin, `CalculatorEngine` sadece işlemleri çözerken, `CalculatorDisplay` sadece sonucu ekranda gösterir.
-- **Mediator Pattern:** `CalculatorScreen`, kullanıcı etkileşimlerini (buton tıklamaları) alır ve hesaplama motoruna yönlendirerek aracı görevi görür.
 
 ## 📦 Kullanılan Kütüphaneler
 
@@ -56,4 +43,4 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
    ```
 
 ---
-**Geliştirici:** [DecoderMusti](https://github.com/DecoderMusti)
+**Geliştirici:** [Mustafa Karabuğa](https://github.com/DecoderMusti)
